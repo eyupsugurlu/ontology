@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/7cSZ3sSvHZ5FWzX61X8ID#"
+     xml:base="http://webprotege.stanford.edu/project/7cSZ3sSvHZ5FWzX61X8ID"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/7cSZ3sSvHZ5FWzX61X8ID"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7iRnhdmx32FzWyoNlcYF5d -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R7iRnhdmx32FzWyoNlcYF5d">
+        <rdfs:label>ısbn</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDWaZt8XfvDzsmPxa2cQ9zL -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RDWaZt8XfvDzsmPxa2cQ9zL">
+        <rdfs:label>price</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R79HuIk4VVrnzJzUrSWpHHD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R79HuIk4VVrnzJzUrSWpHHD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDMLsvI0m606ashqwVkuxYc"/>
+        <rdfs:label>İş ekonomi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7vgPHL8Dv01l5f7MHypp1N -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7vgPHL8Dv01l5f7MHypp1N">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8pHOY7pzQxr4vcQ8zYF0oX"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suna Okur</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Çalıkuşu Kitap</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diksiyon Güzel ve Etkili Konuşma Sanatı</dc:title>
+        <webprotege:R7iRnhdmx32FzWyoNlcYF5d rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786056691201</webprotege:R7iRnhdmx32FzWyoNlcYF5d>
+        <webprotege:RDWaZt8XfvDzsmPxa2cQ9zL rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22.73</webprotege:RDWaZt8XfvDzsmPxa2cQ9zL>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diksiyon Güzel ve Etkili Konuşma Sanatı</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7xVdKwrT6dH1F7kjGMz3J5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7xVdKwrT6dH1F7kjGMz3J5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R79HuIk4VVrnzJzUrSWpHHD"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brigitte Culhan</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</dc:date>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Siyah Beyaz Yayınları</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beyin Gücü: Beyin Gücünü Geliştirme</dc:title>
+        <webprotege:R7iRnhdmx32FzWyoNlcYF5d rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786059598224</webprotege:R7iRnhdmx32FzWyoNlcYF5d>
+        <webprotege:RDWaZt8XfvDzsmPxa2cQ9zL rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.93</webprotege:RDWaZt8XfvDzsmPxa2cQ9zL>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beyin Gücü: Beyin Gücünü Geliştirme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7xX7mjcwCosyUX3XYY7xvJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7xX7mjcwCosyUX3XYY7xvJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDMLsvI0m606ashqwVkuxYc"/>
+        <rdfs:label>Çocuk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8pHOY7pzQxr4vcQ8zYF0oX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8pHOY7pzQxr4vcQ8zYF0oX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDMLsvI0m606ashqwVkuxYc"/>
+        <rdfs:label>Güzel sanatlar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9INIpycmPWXpWDUlyQXxCS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9INIpycmPWXpWDUlyQXxCS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCzhEKNu06DTtmtszw0rodd"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emma Marriott</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</dc:date>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maya Kitap</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bir Nefeste Dünya Tarihi</dc:title>
+        <webprotege:R7iRnhdmx32FzWyoNlcYF5d rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786055675844</webprotege:R7iRnhdmx32FzWyoNlcYF5d>
+        <webprotege:RDWaZt8XfvDzsmPxa2cQ9zL rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.73</webprotege:RDWaZt8XfvDzsmPxa2cQ9zL>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bir Nefeste Dünya Tarihi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9naiil5wGlfFR8I3gpjeAI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9naiil5wGlfFR8I3gpjeAI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7xX7mjcwCosyUX3XYY7xvJ"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jane Clarke</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</dc:date>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1001 Çiçek Kitaplar</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minik Dinozor Nasıl Banyo Yapar?</dc:title>
+        <webprotege:R7iRnhdmx32FzWyoNlcYF5d rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786053412632</webprotege:R7iRnhdmx32FzWyoNlcYF5d>
+        <webprotege:RDWaZt8XfvDzsmPxa2cQ9zL rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.44</webprotege:RDWaZt8XfvDzsmPxa2cQ9zL>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minik Dinozor Nasıl Banyo Yapar?</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB0wjjlape3sAMwfDoqmVJM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB0wjjlape3sAMwfDoqmVJM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDMLsvI0m606ashqwVkuxYc"/>
+        <rdfs:label>Felsefe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCzQas8CL69I8QBfeK8EKTZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCzQas8CL69I8QBfeK8EKTZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDMLsvI0m606ashqwVkuxYc"/>
+        <rdfs:label>Bilim kurgu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCzhEKNu06DTtmtszw0rodd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCzhEKNu06DTtmtszw0rodd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDMLsvI0m606ashqwVkuxYc"/>
+        <rdfs:label>Tarih</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDMLsvI0m606ashqwVkuxYc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDMLsvI0m606ashqwVkuxYc">
+        <rdfs:label>Kitaplar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZqxu1jJw6pPcxq3LNyzfl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RZqxu1jJw6pPcxq3LNyzfl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB0wjjlape3sAMwfDoqmVJM"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Friedrich Wilhelm Nietzsche</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</dc:date>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İş Bankası Kültür Yayınları</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Böyle Söyledi Zerdüşt</dc:title>
+        <webprotege:R7iRnhdmx32FzWyoNlcYF5d rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786053603535</webprotege:R7iRnhdmx32FzWyoNlcYF5d>
+        <webprotege:RDWaZt8XfvDzsmPxa2cQ9zL rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</webprotege:RDWaZt8XfvDzsmPxa2cQ9zL>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Böyle Söyledi Zerdüşt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RvfayS3caWn2om1DXa477Q -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RvfayS3caWn2om1DXa477Q">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCzQas8CL69I8QBfeK8EKTZ"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Levent Cantek</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</dc:date>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İletişim Yayınları</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Çizgili Kenar Notları</dc:title>
+        <webprotege:R7iRnhdmx32FzWyoNlcYF5d rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789750504716</webprotege:R7iRnhdmx32FzWyoNlcYF5d>
+        <webprotege:RDWaZt8XfvDzsmPxa2cQ9zL rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</webprotege:RDWaZt8XfvDzsmPxa2cQ9zL>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Çizgili Kenar Notları</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
